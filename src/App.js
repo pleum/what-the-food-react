@@ -95,7 +95,9 @@ const App = ({ coords, isGeolocationEnabled, isGeolocationAvailable }) => {
   return (
     <Row type="flex" justify="center">
       <Col xs={22} md={18} lg={14} xl={8}>
-        <h1 style={{ textAlign: 'center', marginTop: '12px' }}>แดรกไรดี</h1>
+        <h1 style={{ textAlign: 'center', marginTop: '12px' }}>
+          วันนี้แดรกไรดี
+        </h1>
 
         <SearchBox
           value={searchRadius}
